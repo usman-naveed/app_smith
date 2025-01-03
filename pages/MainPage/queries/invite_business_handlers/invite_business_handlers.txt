@@ -1,6 +1,14 @@
 {
 	"company_id": {{CompanySelect.selectedOptionValue}},
 	"business_handlers": [
-	{{Form1.data}}
+	{"first_name": {{first_name.text}}, "last_name": {{last_name.text}}, "email": {{email.text}}, "sso_required": "", "sso_config": ""},
+{"first_name": {{first_nameCopy.text}}, "last_name": {{last_nameCopy.text}}, "email": {{emailCopy.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy1.text}}, "last_name": {{last_nameCopy1.text}}, "email": {{emailCopy1.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy2.text}}, "last_name": {{last_nameCopy2.text}}, "email": {{emailCopy2.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy3.text}}, "last_name": {{last_nameCopy3.text}}, "email": {{emailCopy3.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy4.text}}, "last_name": {{last_nameCopy4.text}}, "email": {{emailCopy4.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy5.text}}, "last_name": {{last_nameCopy5.text}}, "email": {{emailCopy5.text}}, "sso_required": "", "sso_config": ""}, 
+{"first_name": {{first_nameCopy6.text}}, "last_name": {{last_nameCopy6.text}}, "email": {{emailCopy6.text}}, "sso_required": "", "sso_config": ""},
+{"first_name": {{first_nameCopy7.text}}, "last_name": {{last_nameCopy7.text}}, "email": {{emailCopy7.text}}, "sso_required": "", "sso_config": ""}
 	]
 }
