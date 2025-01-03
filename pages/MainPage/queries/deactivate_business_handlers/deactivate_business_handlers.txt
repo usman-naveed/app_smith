@@ -1,0 +1,4 @@
+{
+	"company_id": {{CompanySelect.selectedOptionValue}},
+	"business_handler_ids": [{{BizHandlerTable.selectedRows.map(function (row) { return row.id; }).join();}}]
+}

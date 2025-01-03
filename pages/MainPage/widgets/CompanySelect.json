@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "18dw9mlwdo",
+  "labelText": "Search Company:",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{ \n  (function() {\n      if (CompanySelect.selectedOptionValue != \"\") {\n\t\tbusiness_handlers.run();\n      }\n   })()\n}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "rightColumn": 35,
+  "serverSideFiltering": false,
+  "sourceData": "{{visible_companies.data}}",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "npkn6tmkom",
+  "widgetName": "CompanySelect"
+}

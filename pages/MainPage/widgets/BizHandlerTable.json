@@ -1,0 +1,280 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "first_name",
+    "last_name",
+    "email_address",
+    "admin_link",
+    "customColumn1",
+    "customColumn2"
+  ],
+  "columnSizeMap": {
+    "action": 169,
+    "admin_link": 166,
+    "email_address": 340,
+    "first_name": 184,
+    "last_name": 168,
+    "status": 173,
+    "step": 62,
+    "task": 245
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRow": "0",
+  "delimiter": ",",
+  "derivedColumns": {
+    "customColumn1": {
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.requires_sso))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn1",
+      "index": 5,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Requires SSO",
+      "labelColor": "#FFFFFF",
+      "width": 150
+    },
+    "customColumn2": {
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( business_handlers.data.sso_config))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn2",
+      "index": 6,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "SSO Config",
+      "labelColor": "#FFFFFF",
+      "width": 150
+    }
+  },
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.admin_link.computedValue"
+    },
+    {
+      "key": "primaryColumns.email_address.computedValue"
+    },
+    {
+      "key": "primaryColumns.last_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.first_name.computedValue"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "derivedColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn2.computedValue"
+    },
+    {
+      "key": "derivedColumns.customColumn2.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.db8a9cbd.svg",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "key": "rnf65vb2eg",
+  "label": "Data",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 6,
+  "multiRowSelection": true,
+  "parentColumnSpace": 16.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "admin_link": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "url",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.admin_link))}}",
+      "displayText": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( 'Link'))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "CENTER",
+      "id": "admin_link",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Admin Link",
+      "textColor": "#3366FF",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.requires_sso))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn1",
+      "index": 5,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Requires SSO",
+      "labelColor": "#FFFFFF",
+      "width": 150
+    },
+    "customColumn2": {
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( business_handlers.data.sso_config))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "customColumn2",
+      "index": 6,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "SSO Config",
+      "labelColor": "#FFFFFF",
+      "width": 150
+    },
+    "email_address": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.email_address))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "email_address",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Email Address",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "first_name": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.first_name))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "first_name",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "First Name",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.id))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "ID",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "last_name": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{BizHandlerTable.sanitizedTableData.map((currentRow) => ( currentRow.last_name))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "last_name",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Last Name",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "searchKey": "",
+  "tableData": "{{business_handlers.data.business_handlers}}",
+  "textSize": "0.875rem",
+  "topRow": 7,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET",
+  "version": 3,
+  "verticalAlignment": "CENTER",
+  "widgetId": "4kgyypot6g",
+  "widgetName": "BizHandlerTable"
+}

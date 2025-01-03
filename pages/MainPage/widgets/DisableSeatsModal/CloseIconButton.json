@@ -1,0 +1,34 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#2E3D49",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vigulx6p79",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 56,
+  "onClick": "{{closeModal(DisableSeatsModal.name);}}",
+  "parentId": "pgypgxkbqu",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8kzf06h8d0",
+  "widgetName": "CloseIconButton"
+}

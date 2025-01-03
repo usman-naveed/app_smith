@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "defaultCheckedState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "dr4j3dpz1v",
+  "label": "SSO Required",
+  "labelPosition": "Left",
+  "leftColumn": 25,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 5.940625000000001,
+  "parentId": "eh1a44oazi",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "topRow": 13,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "bqqfizlzhq",
+  "widgetName": "sso_required"
+}

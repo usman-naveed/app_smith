@@ -1,0 +1,19 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationVersion": 1,
+  "color": "#D6D1F2",
+  "evaluationVersion": 2,
+  "icon": "line-chart",
+  "pages": [
+    {
+      "id": "MainPage",
+      "isDefault": true
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
+}

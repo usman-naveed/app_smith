@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "buttonColor": "#03B365",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "SECONDARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vesgzinqr0",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 31,
+  "onClick": "{{closeModal(AddSeatsModal.name);}}",
+  "originalBottomRow": 54,
+  "originalTopRow": 50,
+  "parentId": "eh1a44oazi",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "text": "Close",
+  "topRow": 23,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8xmzfzgy88",
+  "widgetName": "ASMCloseButton"
+}

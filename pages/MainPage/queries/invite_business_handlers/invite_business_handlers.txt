@@ -1,0 +1,6 @@
+{
+	"company_id": {{CompanySelect.selectedOptionValue}},
+	"business_handlers": [
+	{{Form1.data}}
+	]
+}

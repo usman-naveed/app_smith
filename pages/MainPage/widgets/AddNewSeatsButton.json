@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 83,
+  "boxShadow": "none",
+  "buttonColor": "#3366FF",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "00h0i953za",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 38,
+  "onClick": "{{showModal('AddSeatsModal')}}",
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 54,
+  "text": "+ Add New Seats",
+  "topRow": 79,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9xo28qge9m",
+  "widgetName": "AddNewSeatsButton"
+}
